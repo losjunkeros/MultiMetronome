@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.silly_000.multimetronome.MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="115dp"
+        android:text="ACCENT:"
+        android:textColor="@color/colorText"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100dp"
+        android:entries="@array/accent_array" />
+
+    <NumberPicker
+        android:id="@+id/numberPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/spinner"
+        android:layout_centerHorizontal="true" />
+
+    <ToggleButton
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/numberPicker"
+        android:layout_centerHorizontal="true"
+        android:checked="false"
+        android:textOff="START"
+        android:textOn="STOP" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/ripple_effect"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="20dp"
+        android:text="TAP TEMPO" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:text="CLAP THE TEMPO:"
+        android:textColor="@color/colorText"/>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="15dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:textOff="MASTER"
+        android:textOn="MASTER" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/switch1"
+        android:layout_marginTop="20dp"
+        android:textOff="SLAVE"
+        android:textOn="SLAVE" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch1"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:textOff="SYNC"
+        android:textOn="SYNC" />
+</RelativeLayout>

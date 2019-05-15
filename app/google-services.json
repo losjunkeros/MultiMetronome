@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "655835857814",
+    "firebase_url": "https://multimetronome-f0d6e.firebaseio.com",
+    "project_id": "multimetronome-f0d6e",
+    "storage_bucket": "multimetronome-f0d6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655835857814:android:096f8b494d97acb6",
+        "android_client_info": {
+          "package_name": "com.example.silly_000.multimetronome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655835857814-dicfll5a5mvn0jd59m1uv14971ctg604.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ8RzdFpuVg_rZn24mx07PUm6gM82klFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655835857814-dicfll5a5mvn0jd59m1uv14971ctg604.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
